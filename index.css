@@ -6,15 +6,21 @@ body {
 
 .tela {
     display: flex;
-    width: 200px;
-    height: 200px;
+    flex-direction: column;
+    width: 250px;
+    height: 270px;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: rgb(43, 69, 180);
     margin-left: 50%;
     margin-top: 10%;
+    border-radius: 10px;
     overflow: hidden;
-
+   
+}
+p{
+    color: white;
+    font-size: x-large;
 }
 
 .tabuleiro {
@@ -22,7 +28,7 @@ body {
     width: 153px;
     height: 153px;
     flex-direction: column;
-    background-color: rgb(60, 127, 158);
+    background-color: rgb(248, 248, 248);
     overflow: hidden;   
 }
 
@@ -60,7 +66,6 @@ body {
     width: 50px;
     height: 50px;
     border-bottom: 1px solid black;
-
 }
 
 .ganhou {
@@ -72,10 +77,8 @@ body {
     right: 40%;
     width: 200px;
     height: 3px;
-    background-color: red;     
-       
+    background-color: red;            
 }
-
 
 .jogada {
     display: flex;
