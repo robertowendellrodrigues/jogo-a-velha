@@ -1,7 +1,7 @@
 const jogador1 = 1
 const jogador2 = 2
 let vez = jogador1
-var jogada = new Uint16Array(9)
+var jogada = [0,0,0,0,0,0,0,0,0]
 let fim = false
 var jogadas = 10
 
